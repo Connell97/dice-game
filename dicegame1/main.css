@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+#game-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 40vmax;
+    width: 40vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    border: 3px solid blue;
+    padding: 3vh;
+}
+
+#game-container {
+    font-size: 2vmax;
+}
+
+#game-container button {
+    width: 20%;
+}
